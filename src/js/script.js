@@ -7,9 +7,9 @@ window.onload = function () {
     const excuse = document.getElementById('excuse');
 
     // 2. Generate a random excuse
-    // Replace below line of code with logic need to generate a random excuse
-    const excuseText = 'My dog ate my homework for breakfast';
-    
+
+    const excuseText = `The dog ate my homework for breakfast`;
+
     // 3. Inseart the excuse into the excuse element
     excuse.innerHTML = excuseText;
 }
